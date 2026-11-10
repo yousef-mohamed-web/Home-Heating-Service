@@ -1,3 +1,7 @@
+import { inject } from '@vercel/analytics';
+ 
+inject();
+
 var bf = document.getElementById("bookForm");
 bf.addEventListener("submit", function (e) {
   e.preventDefault();
