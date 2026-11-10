@@ -1,4 +1,4 @@
-import { inject } from '@vercel/analytics/react';
+import { inject } from './@vercel/analytics/react';
  
 inject();
 
